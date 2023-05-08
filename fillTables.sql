@@ -1,0 +1,2 @@
+select 'bcp ' + table_schema + '.' + table_name + ' in /home/bensabler/Desktop/DBM Systems Intern/baseballdatabank-2022.2/core/' + table_name + '.csv -S localhost -U sa -P Coop0310 -c "," -t "\n"'
+from INFORMATION_SCHEMA.tables 
